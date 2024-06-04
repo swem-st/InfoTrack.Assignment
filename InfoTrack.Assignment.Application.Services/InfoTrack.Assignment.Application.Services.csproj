@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="SearchEngineOptimizationDomain\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.61" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.0-preview.4.24266.19" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InfoTrack.Assignment.Application.DomainModels\InfoTrack.Assignment.Application.DomainModels.csproj" />
+    <ProjectReference Include="..\InfoTrack.Assignment.Application.ServicesAbstraction\InfoTrack.Assignment.Application.ServicesAbstraction.csproj" />
+    <ProjectReference Include="..\InfoTrack.Assignment.Core\InfoTrack.Assignment.Core.csproj" />
+    <ProjectReference Include="..\InfoTrack.Assignment.InfrastructureAbstractions\InfoTrack.Assignment.InfrastructureAbstractions.csproj" />
+  </ItemGroup>
+
+</Project>

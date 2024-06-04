@@ -1,0 +1,39 @@
+<div class="form-container">
+
+  <div class="container">
+    <h1  class="title">SEO Tracker</h1>
+    <form [formGroup]="searchForm" (ngSubmit)="onSearch()">
+      <mat-form-field appearance="fill">
+        <mat-label>Search Term</mat-label>
+        <input matInput formControlName="searchTerm" required maxlength="200">
+        <mat-error *ngIf="searchForm.controls.searchTerm.errors?.['required']">Search term is required</mat-error>
+        <mat-error *ngIf="searchForm.controls.searchTerm.errors?.['maxlength']">Search term cannot be more than 200 characters</mat-error>
+      </mat-form-field>
+      <br />
+      <mat-form-field appearance="fill">
+        <mat-label>URL</mat-label>
+        <input matInput formControlName="url" required maxlength="200">
+        <mat-error *ngIf="searchForm.controls.url.errors?.['required']">URL is required</mat-error>
+        <mat-error *ngIf="searchForm.controls.url.errors?.['maxlength']">URL cannot be more than 200 characters</mat-error>
+      </mat-form-field>
+      <br />
+      <mat-form-field appearance="fill">
+        <mat-label>Search Engine</mat-label>
+        <mat-select formControlName="searchEngine" required>
+          <mat-option *ngFor="let engine of searchEngines" [value]="engine.value">
+            {{engine.viewValue}}
+          </mat-option>
+        </mat-select>
+        <mat-error *ngIf="searchForm.controls.searchEngine.errors?.['required']">Search engine is required</mat-error>
+      </mat-form-field>
+      <br />
+      <button mat-raised-button color="primary" type="submit" [disabled]="searchForm.invalid">Submit</button>
+    </form>
+
+    <div *ngIf="results">
+      <h2>Results</h2>
+      <pre>{{ results | json }}</pre>
+    </div>
+  </div>
+</div>
+

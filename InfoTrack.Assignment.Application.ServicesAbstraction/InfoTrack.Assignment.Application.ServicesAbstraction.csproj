@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="SearchEngineOptimization\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InfoTrack.Assignment.Application.DomainModels\InfoTrack.Assignment.Application.DomainModels.csproj" />
+    <ProjectReference Include="..\InfoTrack.Assignment.Application.DTO\InfoTrack.Assignment.Application.DTO.csproj" />
+  </ItemGroup>
+
+</Project>
