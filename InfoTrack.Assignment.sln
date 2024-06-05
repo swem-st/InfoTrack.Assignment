@@ -31,6 +31,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{F7615F
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "InfoTrack.Assignment.Client", "InfoTrack.Assignment.Client\InfoTrack.Assignment.Client.esproj", "{1DA02E21-465A-478A-8ACF-1C17A4B758A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{D1CBFDA3-3CB6-49AD-B90C-5A3951C80931}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,10 @@ Global
 		{1DA02E21-465A-478A-8ACF-1C17A4B758A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DA02E21-465A-478A-8ACF-1C17A4B758A8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1DA02E21-465A-478A-8ACF-1C17A4B758A8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D1CBFDA3-3CB6-49AD-B90C-5A3951C80931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CBFDA3-3CB6-49AD-B90C-5A3951C80931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CBFDA3-3CB6-49AD-B90C-5A3951C80931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CBFDA3-3CB6-49AD-B90C-5A3951C80931}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

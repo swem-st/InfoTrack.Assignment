@@ -33,7 +33,7 @@ namespace InfoTrack.Assignment.Application.DomainModels.SearchEngineOptimization
             return result;
         }
 
-        public ICollection<int> FindUrlPositions(string htmlContent)
+        public List<int> FindUrlPositions(string htmlContent)
         {
             var urlPositions = new List<int>();
 
