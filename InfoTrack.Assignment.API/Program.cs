@@ -1,4 +1,4 @@
-using InfoTrack.Assignment.Infrastructure.DependencyResolution.Application;
+using InfoTrack.Assignment.Infrastructure.DependencyResolution;
 
 namespace InfoTrack.Assignment.API
 {

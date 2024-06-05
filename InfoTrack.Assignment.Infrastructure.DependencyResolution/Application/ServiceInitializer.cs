@@ -5,7 +5,7 @@ using InfoTrack.Assignment.Core.Helper;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace InfoTrack.Assignment.Infrastructure.DependencyResolution.Application
+namespace InfoTrack.Assignment.Infrastructure.DependencyResolution
 {
     public static class ServiceInitializer
     {
