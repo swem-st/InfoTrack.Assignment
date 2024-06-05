@@ -68,3 +68,7 @@ Make sure you have the [.NET SDK](https://dotnet.microsoft.com/download) version
  - Test command: `dotnet test InfoTrack.Assignment.Tests`
  - Build command: `dotnet build`
  - For Angular, navigate to the Client directory and run `npm install` to install dependencies, then `ng serve` to start the development server.
+
+![image](https://github.com/swem-st/InfoTrack.Assignment/assets/61904722/6e7ed251-a5b4-4a06-9438-3284bfa54f3a)
+
+
